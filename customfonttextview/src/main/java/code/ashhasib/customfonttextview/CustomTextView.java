@@ -22,8 +22,6 @@ public class CustomTextView extends AppCompatTextView {
     }
 
 
-
-
     public void style(Context context,AttributeSet attributeSet) {
         TypedArray array = context.obtainStyledAttributes(
                 attributeSet,R.styleable.CustomTextView
